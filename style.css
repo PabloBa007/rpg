@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(7, 136, 248);
+    color: rgb(248, 6, 6);
+    text-align: center;
+    }
+
+    h1 {
+        color: red;
+        font-size: 45px;
+        text-decoration: underline;
+    }
+
+    h3 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    img {
+        width: 80%;
+        max-height: 650px;
+        object-fit: cover;
+        border-radius: 7%;
+    }
+
+    p {
+        font-size: 25px;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10px;            /* Fügt einen Abstand von 10px zwischen den Absätzen ein */
+    }
+
+    .link-container {
+        display: flex;                 /* Container für flexible Anordnung */
+        flex-direction:column;        /* Links werden untereinander angezeigt */
+        gap: 10px;                     /* Abstand zwischen den Rahmen */
+        align-items: center;           /* Rahmen in der Mitte zentrieren */
+        margin: 20px 0;                /* Abstand vom übrigen Inhalt */
+    }
+    
+    .link-box {
+        border: 3px solid #ccc;        /* Rahmen um jeden Link */
+        padding: 15px;                 /* Abstand innerhalb des Rahmens */
+        border-radius: 40px;            /* Abgerundete Ecken */
+        background-color: #fff;        /* Weißer Hintergrund */
+        text-align: center;            /* Link-Text zentrieren */
+        display: inline-block;         /* Box passt sich dem Inhalt an */        
+    }
+    
+    .link-box a {
+        text-decoration: none;         /* Unterstreichung entfernen */
+        color: #007BFF;                /* Blaue Linkfarbe */
+        font-weight: bold;             /* Fette Schrift für Links */
+        font-size: 16px;               /* Schriftgröße */
+        box-sizing: border-box;         /* Stellt sicher, dass Padding in die Breite einbezogen wird */
+        }
+    
+   
+    .link-box a:hover {
+        color: #0056b3;                /* Linkfarbe beim Hover dunkler */
+        text-decoration: underline;
+    }
+
