@@ -1,0 +1,161 @@
+body {
+    background-image: url(bilder2/hintergrundwald.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+h1 {
+    color: rgb(98, 30, 30);
+    font-size: 60px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 35px;    /* Schriftgröße auf 30px */
+    font-weight: bold;  /* Text fett */
+    font-weight: bolder;
+    margin-left: 10%;   /* Abstand von der linken Seite */
+    margin-right: 10%;  /* Abstand von rechts 10% */
+}
+
+p {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    color: rgba(10, 67, 21, 0.72);
+}
+
+.waffen-container {
+    display: flex;
+    justify-content: center;   /* Zentriert die Bilder und Beschreibungen */
+    gap: 200px;                 /* Fester Abstand von 20px zwischen den Bildern */
+    width: 100%;               /* Der Container nimmt die volle Breite ein */
+    margin: 0 auto;            /* Zentriert den Container */
+    align-items: center;        /* Zentriert die Bilder vertikal (falls nötig) */
+    flex-wrap: wrap;          /* Lässt Bilder umbrechen, wenn kein Platz mehr ist */
+}
+
+.waffe {
+    display: flex;
+    flex-direction: column;    /* Stapelt das Bild und die Beschreibung vertikal */
+    align-items: center;       /* Zentriert Bild und Beschreibung */
+    width: 200px;              /* Feste Breite für das Bild und die Beschreibung */
+}
+
+.waffe img {
+    width: 300px;              /* Fixe Breite für das Bild */
+    height: auto;              /* Beibehaltung des Seitenverhältnisses */
+}
+
+.beschreibung {
+    font-size: 20px;           /* Schriftgröße der Beschreibung */
+    text-align: center;        /* Zentriert den Text */
+    margin-top: 5px;           /* Abstand zwischen Bild und Beschreibung */
+    width: 80%;               /* Beschreibung nimmt 80% des Containers ein */
+    transition: font-weight 0.3s ease; /* Sanfter Übergang bei Hover */
+}
+
+.beschreibung:hover {
+    font-weight: bold; /* Schrift wird fett beim Hover */
+    font-size: 18px;
+}
+
+.start-container {
+    display: flex;                /* Macht die Links nebeneinander */
+    justify-content: center;      /* Zentriert die Links horizontal */
+    gap: 30px;                    /* Abstand von 30px zwischen den Links */
+    margin-top: 20px;             /* Abstand vom oberen Bereich */
+}
+
+.start-container a {
+    text-decoration: none;        /* Entfernt die Unterstreichung der Links */
+    font-size: 20px;
+}
+
+/* Media Queries */
+
+/* Für Tablets (maximale Breite: 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px; /* Verkleinerte Schriftgröße */
+    }
+
+    h2 {
+        font-size: 28px; /* Reduzierte Schriftgröße */
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    p {
+        font-size: 24px; /* Kleinere Schriftgröße */
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .waffen-container {
+        gap: 100px; /* Weniger Abstand zwischen den Bildern */
+    }
+
+    .waffe img {
+        width: 250px; /* Kleinere Bilder */
+    }
+
+    .beschreibung {
+        font-size: 18px; /* Kleinere Beschreibungen */
+        width: 90%;      /* Breitere Beschreibungen */
+    }
+
+    .start-container {
+        gap: 20px; /* Reduzierter Abstand zwischen den Links */
+    }
+
+    .start-container a {
+        font-size: 18px; /* Kleinere Schriftgröße für Links */
+    }
+}
+
+/* Für Smartphones (maximale Breite: 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px; /* Noch kleinere Schriftgröße */
+    }
+
+    h2 {
+        font-size: 20px; /* Reduzierte Schriftgröße */
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    p {
+        font-size: 18px; /* Kleinere Schriftgröße */
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .waffen-container {
+        flex-direction: column; /* Bilder untereinander anzeigen */
+        gap: 20px; /* Weniger Abstand zwischen den Bildern */
+    }
+
+    .waffe img {
+        width: 200px; /* Noch kleinere Bilder */
+    }
+
+    .beschreibung {
+        font-size: 16px; /* Noch kleinere Beschreibungen */
+        width: 100%;     /* Beschreibung passt sich voll an */
+    }
+
+    .start-container {
+        flex-direction: column; /* Links untereinander anordnen */
+        gap: 10px; /* Noch kleinerer Abstand zwischen den Links */
+    }
+
+    .start-container a {
+        font-size: 16px; /* Noch kleinere Schriftgröße für Links */
+    }
+}

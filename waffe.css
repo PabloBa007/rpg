@@ -1,0 +1,194 @@
+
+.schwert-body {
+    background-image: url(bilder2/hintergrund3.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.bogen-body {
+    background-image: url(bilder2/hintergrundbogen.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.stab-body {
+    background-image: url(bilder2/hintergrundstab.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.schwert1-body {
+    background-image: url(bilder2/hintergrund1schwert.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.bogen1-body {
+    background-image: url(bilder2/hintergrund1bogen.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.stab1-body {
+    background-image: url(bilder2/hintergrund1stab.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.schwert2-body {
+    background-image: url(bilder2/hintergrund2schwert.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.bogen2-body {
+    background-image: url(bilder2/hintergrund2bogen.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.stab2-body {
+    background-image: url(bilder2/hintergrund2stab.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.gebirge-container img {
+    width: 110%;
+    height: 200px;    
+    object-fit: cover; /* Verhindert Verzerrungen und füllt den Bereich aus */
+}
+
+h2 {
+    font-size: 30px;    /* Schriftgröße auf 30px */
+    font-weight: bold;  /* Text fett */
+    margin-left: 10%;   /* Abstand von der linken Seite */
+    margin-right: 10%;  /* Abstand von rechts 10% */
+    margin-top: 100px;
+    color: rgb(12, 11, 11);
+}
+
+p {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(226, 45, 45);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tiere-container {
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+}
+
+.tiere-container img {
+    width: 400px;
+    height: auto;
+    border: 8px solid black;   /* Schwarzer Rahmen mit einer Dicke von 2px */
+    border-radius: 30px;       /* Runde die Ecken mit einem Radius von 10px ab */
+    padding: 1px;              /* Optional: Abstand zwischen Bild und Rahmen */
+}
+
+.start-container {
+    display: flex;                /* Macht die Links nebeneinander */
+    justify-content: center;      /* Zentriert die Links horizontal */
+    gap: 30px;                    /* Abstand von 30px zwischen den Links */
+    margin-top: 20px;             /* Abstand vom oberen Bereich */
+}
+
+.start-container a {
+    text-decoration: none;        /* Entfernt die Unterstreichung der Links */
+    font-size: 20px;
+}
+
+/* Media Queries */
+
+/* Für Tablets (maximale Breite: 768px) */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    p {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .tiere-container {
+        gap: 100px; /* Reduziere den Abstand zwischen den Bildern */
+    }
+
+    .tiere-container img {
+        width: 300px; /* Verkleinere die Bildbreite */
+        border-radius: 20px; /* Weniger abgerundete Ecken */
+    }
+
+    .start-container a {
+        font-size: 18px; /* Kleinere Schriftgröße für Links */
+    }
+}
+
+/* Für Smartphones (maximale Breite: 480px) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    p {
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .tiere-container {
+        flex-direction: column; /* Bilder untereinander anzeigen */
+        gap: 20px; /* Kleinerer Abstand zwischen den Bildern */
+    }
+
+    .tiere-container img {
+        width: 250px; /* Noch kleinere Bildbreite */
+        border-radius: 15px; /* Leicht abgerundete Ecken */
+    }
+
+    .start-container a {
+        font-size: 16px; /* Kleinere Schriftgröße für Links */
+    }
+}

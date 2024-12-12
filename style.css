@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-body {
+    body {
     font-family: 'Lato', sans-serif;
     background-color: rgb(7, 136, 248);
-    color: rgb(248, 6, 6);
+    color: rgb(234, 68, 68);
     text-align: center;
     }
 
     h1 {
-        color: red;
+        color: rgb(91, 128, 221);
         font-size: 45px;
         text-decoration: underline;
     }

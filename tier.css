@@ -1,0 +1,357 @@
+
+.steinbock-body {
+    background-image: url(bilder2/hintergrundstein.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd-body {
+    background-image: url(bilder2/hintergrundpferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hirsch-body {
+    background-image: url(bilder2/hintergrundelch.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd1-body {
+    background-image: url(bilder2/hintergrund1pferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.steinbock1-body {
+    background-image: url(bilder2/hintergrund1steinbock.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd2-body {
+    background-image: url(bilder2/hintergrund2pferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hirsch2-body {
+    background-image: url(bilder2/hintergrund2elch.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.steinbock2-body {
+    background-image: url(bilder2/hintergrund2steinbock.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd3-body {
+    background-image: url(bilder2/hintergrund3pferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hirsch3-body {
+    background-image: url(bilder2/hintergrund3elch.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.steinbock3-body {
+    background-image: url(bilder2/hintergrund3steinbock.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd4-body {
+    background-image: url(bilder2/hintergrund4pferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hirsch4-body {
+    background-image: url(bilder2/hintergrund4elch.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.steinbock4-body {
+    background-image: url(bilder2/hintergrund4steinbock.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd5-body {
+    background-image: url(bilder2/hintergrund5pferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hirsch5-body {
+    background-image: url(bilder2/hintergrund5elch.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.steinbock5-body {
+    background-image: url(bilder2/hintergrund5steinbock.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd6-body {
+    background-image: url(bilder2/hintergrund6pferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hirsch6-body {
+    background-image: url(bilder2/hintergrund6elch.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hase6-body {
+    background-image: url(bilder2/hintergrund6riesenhase.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd7-body {
+    background-image: url(bilder2/hintergrund7pferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hirsch7-body {
+    background-image: url(bilder2/hintergrund7elch.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hase7-body {
+    background-image: url(bilder2/hintergrund7hase.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.pferd8-body {
+    background-image: url(bilder2/hintergrund8pferd.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hirsch8-body {
+    background-image: url(bilder2/hintergrund8elch.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+.hase8-body {
+    background-image: url(bilder2/hintergrund8hase.webp);
+    background-size: cover;        /* Passt das Bild an den Bildschirm an */
+    background-repeat: no-repeat;  /* Verhindert das Wiederholen */
+    background-attachment: fixed;  /* Hintergrund bleibt beim Scrollen fixiert */
+    background-position: center;   /* Zentriert das Bild */
+}
+
+h1 {
+    color: rgb(98, 30, 30);
+    font-size: 60px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 35px;    /* Schriftgröße auf 30px */
+    font-weight: bold;  /* Text fett */
+    font-weight: bolder;
+    margin-left: 10%;   /* Abstand von der linken Seite */
+    margin-right: 10%;  /* Abstand von rechts 10% */
+}
+
+p {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    color: black;
+}
+
+/* Container für die Zentrierung */
+.center-container {
+    display: flex;                /* Flexbox-Layout für zentrierte Inhalte */
+    justify-content: center;      /* Zentriert den Inhalt horizontal */
+    align-items: center;          /* Zentriert den Inhalt vertikal */
+    margin-top: 20px;
+    margin: 0;                    /* Entfernt Standardabstände */
+}
+
+/* Styling des Links */
+.kapitel-link {
+    display: inline-block;       /* Macht den Link blockähnlich für den Rahmen */
+    padding: 20px 40px;          /* Abstand innerhalb des Rahmens */
+    border: 10px solid black;     /* Fetter schwarzer Rahmen */
+    border-radius: 30px;          /* Runde Ecken */
+    text-decoration: none;       /* Entfernt die Unterstreichung */
+    font-size: 100px;             /* Schriftgröße für "Zu Kapittel" */
+    color: black;                /* Textfarbe */
+    font-weight: bold;           /* Fette Schrift */
+    text-align: center;          /* Zentriert den Text */
+    transition: all 0.3s ease;   /* Sanfter Übergang für Hover-Effekte */
+}
+
+.kapitel-link .nummer {
+    font-size: 120px;             /* Größere Schrift für die Zahl "3" */
+    color: goldenrod;            /* Goldene Farbe für die Zahl */
+    font-weight: bold;           /* Fette Schrift */
+}
+
+.kapitel-link:hover {
+    border-color: goldenrod;     /* Rahmen wird golden beim Hover */
+    background-color: black;     /* Hintergrund wird schwarz beim Hover */
+    color: white;                /* Textfarbe ändert sich zu Weiß */
+}
+
+.kapitel-link:hover .nummer {
+    color: white;                /* Zahl wird Weiß beim Hover */
+}
+
+.start-container {
+    display: flex;                /* Macht die Links nebeneinander */
+    justify-content: center;      /* Zentriert die Links horizontal */
+    gap: 40px;                    /* Abstand von 30px zwischen den Links */
+    margin-top: 35px;             /* Abstand vom oberen Bereich */
+}
+
+.start-container a {
+    text-decoration: none;        /* Entfernt die Unterstreichung der Links */
+    font-size: 40px;
+}
+
+/* Media Queries */
+
+/* Für Tablets (maximale Breite: 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 45px; /* Reduzierte Schriftgröße */
+    }
+
+    h2 {
+        font-size: 28px; /* Kleinere Überschrift */
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    p {
+        font-size: 20px; /* Reduzierte Schriftgröße für Absätze */
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .kapitel-link {
+        font-size: 70px; /* Verkleinerte Schriftgröße für den Link */
+        padding: 15px 30px; /* Kleinere Abstände */
+    }
+
+    .kapitel-link .nummer {
+        font-size: 90px; /* Kleinere Zahl */
+    }
+
+    .start-container a {
+        font-size: 30px; /* Kleinere Schriftgröße für die Links */
+    }
+
+    .start-container {
+        gap: 20px; /* Reduzierter Abstand zwischen den Links */
+    }
+}
+
+/* Für Smartphones (maximale Breite: 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 35px; /* Noch kleinere Schriftgröße */
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    p {
+        font-size: 16px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .kapitel-link {
+        font-size: 50px;
+        padding: 10px 20px;
+        border: 8px solid black; /* Dünnerer Rahmen */
+    }
+
+    .kapitel-link .nummer {
+        font-size: 70px; /* Noch kleinere Zahl */
+    }
+
+    .start-container a {
+        font-size: 20px; /* Kleinere Schriftgröße */
+    }
+
+    .start-container {
+        gap: 10px; /* Noch kleinerer Abstand zwischen den Links */
+    }
+}
